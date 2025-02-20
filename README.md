@@ -80,9 +80,11 @@ Dacă vrei să rulezi aplicația fără a necesita instalarea Python pe calculat
 ## 5. Structură proiect
 
 .
-├── main.py
-├── mapping_config.json
-└── README.md
+├── main.py #main file
+
+├── mapping_config.json #autogen on runtime
+
+└── README.md #this file
 
 
 - `extracted_xml` *(generat la rulare)* conține subfoldere `<timestamp>` cu fișierele XML extrase.
