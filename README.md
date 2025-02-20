@@ -80,9 +80,9 @@ Dacă vrei să rulezi aplicația fără a necesita instalarea Python pe calculat
 ## 5. Structură proiect
 
 .
-├── main.py               # Codul principal al aplicației
-├── mapping_config.json   # Fișier JSON cu maparea (generat în timpul utilizării)
-└── README.md             # Acest fișier de documentație
+├── main.py
+├── mapping_config.json
+└── README.md
 
 
 - `extracted_xml` *(generat la rulare)* conține subfoldere `<timestamp>` cu fișierele XML extrase.
