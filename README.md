@@ -105,7 +105,7 @@ Dacă vrei să rulezi aplicația fără a necesita instalarea Python pe calculat
 
 ## 7. Licență
 
-[MIT License](https://opensource.org/licenses/MIT
+Mozilla Public License Version 2.0
 
 
 ---
