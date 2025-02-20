@@ -46,6 +46,10 @@ Dacă vrei să rulezi aplicația fără a necesita instalarea Python pe calculat
    - `--windowed` împiedică deschiderea unei ferestre de consolă.
 3. După rulare, vei găsi executabilul generat în folderul `dist/` (ex: `dist\main.exe`).
 4. Poți distribui acest `.exe` pe un sistem Windows fără ca Python să fie instalat.
+5. Daca ai probleme cu PATH, cel mai simplu este sa rulezi PyInstaller prin Python:
+
+python -m PyInstaller --noconfirm --onefile --windowed main.py
+
 
 ---
 
