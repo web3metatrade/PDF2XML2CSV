@@ -48,7 +48,7 @@ Dacă vrei să rulezi aplicația fără a necesita instalarea Python pe calculat
 4. Poți distribui acest `.exe` pe un sistem Windows fără ca Python să fie instalat.
 5. Daca ai probleme cu PATH, cel mai simplu este sa rulezi PyInstaller prin Python:
 
-python -m PyInstaller --noconfirm --onefile --windowed main.py
+ `python -m PyInstaller --noconfirm --onefile --windowed main.py`
 
 
 ---
@@ -82,8 +82,7 @@ python -m PyInstaller --noconfirm --onefile --windowed main.py
 .
 ├── main.py               # Codul principal al aplicației
 ├── mapping_config.json   # Fișier JSON cu maparea (generat în timpul utilizării)
-├── README.md             # Acest fișier de documentație
-└── requirements.txt      # (Opțional) Listă de pachete necesare
+└── README.md             # Acest fișier de documentație
 
 
 - `extracted_xml` *(generat la rulare)* conține subfoldere `<timestamp>` cu fișierele XML extrase.
